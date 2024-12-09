@@ -1,0 +1,1 @@
+countries_map = gpd.read_file('assets/countries_map.geojson')
