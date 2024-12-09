@@ -1,6 +1,49 @@
-Country,Latitude,Longitude,Trade_Partner,Trade_Volume,Trade_Type
-Iraq,33.3152,44.3661,Iran,500000,Oil
-Syria,34.8021,38.9968,Turkey,300000,Textiles
-Saudi Arabia,23.8859,45.0792,China,1000000,Oil
-United Arab Emirates,23.4241,53.8478,India,750000,Electronics
+Country,Country_Code,Latitude,Longitude,Trade_Partner,Trade_Partner_Code,Trade_Volume,Trade_Value,Trade_Type,Trade_Category,Trade_Balance,Year,Currency,Trade_Route
+Iraq,IQ,33.3152,44.3661,Iran,IR,500000,500000000,Oil,Raw Materials,Surplus,2023,IQD,Land
+Syria,SY,34.8021,38.9968,Turkey,TR,300000,300000000,Textiles,Manufactured Goods,Deficit,2022,SYP,Land
+Saudi Arabia,SA,23.8859,45.0792,China,CN,1000000,1000000000,Oil,Raw Materials,Surplus,2021,SAR,Sea
+United Arab Emirates,AE,23.4241,53.8478,India,IN,750000,750000000,Electronics,Manufactured Goods,Surplus,2023,AED,Air
+Kuwait,KW,29.3759,47.9774,USA,US,450000,450000000,Oil,Raw Materials,Surplus,2023,KWD,Sea
+Jordan,JO,31.9632,35.9304,Saudi Arabia,SA,250000,250000000,Pharmaceuticals,Manufactured Goods,Deficit,2022,JOD,Land
+Lebanon,LB,33.8547,35.8623,France,FR,150000,150000000,Textiles,Manufactured Goods,Deficit,2023,LBP,Sea
+Egypt,EG,26.8201,30.8025,Italy,IT,400000,400000000,Oil,Raw Materials,Surplus,2023,EGP,Sea
+Bahrain,BH,25.9304,50.6377,India,IN,200000,200000000,Electronics,Manufactured Goods,Surplus,2023,BHD,Air
+Oman,OM,21.4735,55.9754,China,CN,500000,500000000,Oil,Raw Materials,Surplus,2022,OMR,Sea
+Qatar,QA,25.3548,51.1839,Japan,JP,350000,350000000,Oil,Raw Materials,Deficit,2023,QAR,Sea
+Yemen,YE,15.5529,48.5164,Turkey,TR,200000,200000000,Textiles,Manufactured Goods,Surplus,2022,YER,Land
+Iraq,IQ,33.3152,44.3661,Kuwait,KW,400000,400000000,Oil,Raw Materials,Surplus,2021,IQD,Land
+Syria,SY,34.8021,38.9968,Russia,RU,500000,500000000,Oil,Raw Materials,Deficit,2023,SYP,Sea
+Saudi Arabia,SA,23.8859,45.0792,USA,US,1000000,1000000000,Oil,Raw Materials,Surplus,2021,SAR,Sea
+United Arab Emirates,AE,23.4241,53.8478,France,FR,600000,600000000,Electronics,Manufactured Goods,Deficit,2022,AED,Air
+Kuwait,KW,29.3759,47.9774,China,CN,350000,350000000,Oil,Raw Materials,Surplus,2023,KWD,Sea
+Jordan,JO,31.9632,35.9304,USA,US,500000,500000000,Pharmaceuticals,Manufactured Goods,Deficit,2023,JOD,Land
+Lebanon,LB,33.8547,35.8623,Saudi Arabia,SA,300000,300000000,Pharmaceuticals,Manufactured Goods,Surplus,2021,LBP,Sea
+Egypt,EG,26.8201,30.8025,Turkey,TR,450000,450000000,Oil,Raw Materials,Deficit,2022,EGP,Sea
+Bahrain,BH,25.9304,50.6377,USA,US,350000,350000000,Electronics,Manufactured Goods,Surplus,2023,BHD,Air
+Oman,OM,21.4735,55.9754,India,IN,400000,400000000,Oil,Raw Materials,Surplus,2021,OMR,Sea
+Qatar,QA,25.3548,51.1839,China,CN,300000,300000000,Oil,Raw Materials,Surplus,2023,QAR,Sea
+Yemen,YE,15.5529,48.5164,India,IN,250000,250000000,Textiles,Manufactured Goods,Deficit,2022,YER,Land
+Iraq,IQ,33.3152,44.3661,USA,US,450000,450000000,Oil,Raw Materials,Surplus,2023,IQD,Sea
+Syria,SY,34.8021,38.9968,China,CN,350000,350000000,Oil,Raw Materials,Surplus,2021,SYP,Land
+Saudi Arabia,SA,23.8859,45.0792,Japan,JP,600000,600000000,Electronics,Manufactured Goods,Surplus,2022,SAR,Sea
+United Arab Emirates,AE,23.4241,53.8478,USA,US,500000,500000000,Oil,Raw Materials,Deficit,2023,AED,Air
+Kuwait,KW,29.3759,47.9774,Turkey,TR,200000,200000000,Oil,Raw Materials,Surplus,2021,KWD,Land
+Jordan,JO,31.9632,35.9304,India,IN,400000,400000000,Pharmaceuticals,Manufactured Goods,Surplus,2023,JOD,Land
+Lebanon,LB,33.8547,35.8623,China,CN,300000,300000000,Electronics,Manufactured Goods,Deficit,2023,LBP,Air
+Egypt,EG,26.8201,30.8025,Saudi Arabia,SA,350000,350000000,Oil,Raw Materials,Surplus,2022,EGP,Sea
+Bahrain,BH,25.9304,50.6377,France,FR,250000,250000000,Electronics,Manufactured Goods,Surplus,2021,BHD,Air
+Oman,OM,21.4735,55.9754,Turkey,TR,200000,200000000,Oil,Raw Materials,Surplus,2022,OMR,Land
+Qatar,QA,25.3548,51.1839,Saudi Arabia,SA,300000,300000000,Oil,Raw Materials,Deficit,2023,QAR,Sea
+Yemen,YE,15.5529,48.5164,China,CN,150000,150000000,Textiles,Manufactured Goods,Surplus,2021,YER,Land
+Iraq,IQ,33.3152,44.3661,Russia,RU,600000,600000000,Oil,Raw Materials,Surplus,2023,IQD,Sea
+Syria,SY,34.8021,38.9968,India,IN,400000,400000000,Oil,Raw Materials,Deficit,2022,SYP,Sea
+Saudi Arabia,SA,23.8859,45.0792,China,CN,500000,500000000,Electronics,Manufactured Goods,Surplus,2023,SAR,Sea
+United Arab Emirates,AE,23.4241,53.8478,Turkey,TR,300000,300000000,Oil,Raw Materials,Deficit,2021,AED,Air
+Kuwait,KW,29.3759,47.9774,China,CN,200000,200000000,Oil,Raw Materials,Surplus,2023,KWD,Sea
+Jordan,JO,31.9632,35.9304,Turkey,TR,350000,350000000,Pharmaceuticals,Manufactured Goods,Deficit,2022,JOD,Land
+Lebanon,LB,33.8547,35.8623,India,IN,400000,400000000,Electronics,Manufactured Goods,Surplus,2023,LBP,Air
+Egypt,EG,26.8201,30.8025,Turkey,TR,250000,250000000,Oil,Raw Materials,Deficit,2021,EGP,Sea
+Bahrain,BH,25.9304,50.6377,China,CN,500000,500000000,Electronics,Manufactured Goods,Surplus,2022,BHD,Air
+Oman,OM,21.4735,55.9754,France,FR,450000,450000000
+
 ...
