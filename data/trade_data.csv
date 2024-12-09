@@ -1,0 +1,6 @@
+Country,Latitude,Longitude,Trade_Partner,Trade_Volume,Trade_Type
+Iraq,33.3152,44.3661,Iran,500000,Oil
+Syria,34.8021,38.9968,Turkey,300000,Textiles
+Saudi Arabia,23.8859,45.0792,China,1000000,Oil
+United Arab Emirates,23.4241,53.8478,India,750000,Electronics
+...
