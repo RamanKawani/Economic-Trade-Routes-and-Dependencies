@@ -1,5 +1,23 @@
-@st.cache_data
-def load_data():
-    trade_data = pd.read_csv('data/trade_data.csv')
-    countries_map = gpd.read_file('data/countries_map.geojson')
-    return trade_data, countries_map
+import pandas as pd
+import plotly.express as px
+
+# Step 1: Create the data (Ensure country names and values have the same length)
+df = pd.DataFrame({
+    'country': ['Afghanistan', 'Iran', 'Iraq', 'Saudi Arabia', 'Turkey'],  # List of country names
+    'value': [100, 200, 150, 300, 250]  # Corresponding numeric values for the 'color' scale
+})
+
+# Step 2: Verify data consistency (no missing or incorrect values)
+print("Data Shape:", df.shape)  # Ensure same number of rows in both 'country' and 'value'
+print(df.head())  # Inspect the first few rows of the dataframe to verify alignment
+
+# Step 3: Plot the choropleth map
+fig_map = px.choropleth(df, 
+                        locations='country',  # Country names
+                        locationmode='country names',  # Use country names to map locations
+                        color='value',  # Numeric values to color the countries
+                        title="Economic Trade Routes in the Middle East")
+
+# Step 4: Show the map
+fig_map.show()
+
