@@ -1,77 +1,38 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Iraq"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [43.0, 33.0],
-            [44.0, 33.0],
-            [44.0, 34.0],
-            [43.0, 34.0],
-            [43.0, 33.0]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Syria"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [36.0, 32.0],
-            [37.0, 32.0],
-            [37.0, 33.0],
-            [36.0, 33.0],
-            [36.0, 32.0]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Saudi Arabia"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [45.0, 22.0],
-            [46.0, 22.0],
-            [46.0, 23.0],
-            [45.0, 23.0],
-            [45.0, 22.0]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "United Arab Emirates"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [53.0, 24.0],
-            [54.0, 24.0],
-            [54.0, 25.0],
-            [53.0, 25.0],
-            [53.0, 24.0]
-          ]
-        ]
-      }
-    }
-  ]
-}
+import geopandas as gpd
+import folium
+
+# Load the GeoJSON file containing the countries' geometries
+gdf = gpd.read_file('data/countries_map.geojson')
+
+# Define the coordinates of the Middle East region for map centering
+middle_east_center = [33.5, 45.0]  # Approximate center of the Middle East
+
+# Create a base Folium map centered around the Middle East region
+m = folium.Map(location=middle_east_center, zoom_start=5)
+
+# Overlay the countries in the Middle East from the GeoDataFrame
+# You can filter countries based on the region you want to highlight
+middle_east_countries = ['Saudi Arabia', 'Iran', 'Turkey', 'Iraq', 'Syria', 'Jordan', 'Israel', 'Lebanon', 'United Arab Emirates', 'Qatar', 'Kuwait', 'Oman', 'Bahrain', 'Yemen']
+
+# Filter the GeoDataFrame for countries in the Middle East
+middle_east_gdf = gdf[gdf['properties']['name'].isin(middle_east_countries)]
+
+# Add the countries from the filtered GeoDataFrame to the map
+folium.GeoJson(middle_east_gdf).add_to(m)
+
+# Define some key historical trade routes for visualization
+# Example trade routes (e.g., Silk Road, Spice Route)
+trade_routes = [
+    {"name": "Silk Road", "coordinates": [[62.0, 29.0], [66.0, 32.5], [80.0, 35.0]]},
+    {"name": "Incense Route", "coordinates": [[40.0, 18.0], [42.5, 23.0], [44.0, 29.5]]},
+    {"name": "Spice Route", "coordinates": [[60.0, 20.0], [65.0, 25.0], [70.0, 30.0]]}
+]
+
+# Add the trade routes to the map as polyline paths
+for route in trade_routes:
+    folium.PolyLine(route["coordinates"], color="blue", weight=2.5, opacity=1).add_to(m)
+
+# Save the map to an HTML file
+m.save('middle_east_trade_routes.html')
+
+print("Map created successfully! Check 'middle_east_trade_routes.html' for the interactive map.")
