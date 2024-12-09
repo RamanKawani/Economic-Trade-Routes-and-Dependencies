@@ -1,0 +1,5 @@
+@st.cache_data
+def load_data():
+    trade_data = pd.read_csv('data/trade_data.csv')
+    countries_map = gpd.read_file('data/countries_map.geojson')
+    return trade_data, countries_map
