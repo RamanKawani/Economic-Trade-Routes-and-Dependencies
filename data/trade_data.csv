@@ -3,3 +3,27 @@ Iraq,IQ,33.3152,44.3661,Iran,IR,500000,500000000,Oil,Raw Materials,Deficit,2023,
 Syria,SY,34.8021,38.9968,Turkey,TR,300000,300000000,Textiles,Manufactured Goods,Deficit,2022,SYP,Land
 Saudi Arabia,SA,23.8859,45.0792,China,CN,1000000,1000000000,Oil,Raw Materials,Surplus,2023,SAR,Sea
 United Arab Emirates,AE,23.4241,53.8478,India,IN,750000,750000000,Electronics,Manufactured Goods,Deficit,2022,AED,Air
+Country,Country_Code,Latitude,Longitude,Trade_Partner,Trade_Partner_Code,Trade_Volume,Trade_Value,Trade_Type,Trade_Category,Trade_Balance,Year,Currency,Trade_Route
+Iraq,IQ,33.3152,44.3661,Iran,IR,500000,500000000,Oil,Raw Materials,Deficit,2023,IQD,Sea
+Syria,SY,34.8021,38.9968,Turkey,TR,300000,300000000,Textiles,Manufactured Goods,Deficit,2022,SYP,Land
+Saudi Arabia,SA,23.8859,45.0792,China,CN,1000000,1000000000,Oil,Raw Materials,Surplus,2023,SAR,Sea
+United Arab Emirates,AE,23.4241,53.8478,India,IN,750000,750000000,Electronics,Manufactured Goods,Deficit,2022,AED,Air
+Kuwait,KW,29.3759,47.9774,South Korea,KR,400000,400000000,Oil,Raw Materials,Deficit,2023,KWD,Sea
+Oman,OM,21.5126,55.9237,Japan,JP,200000,200000000,Petroleum,Raw Materials,Deficit,2023,OMR,Sea
+Qatar,QA,25.3548,51.1839,United States,US,800000,800000000,Liquefied Natural Gas,Energy,Surplus,2023,QAR,Sea
+Bahrain,BH,26.0667,50.5577,India,IN,250000,250000000,Textiles,Manufactured Goods,Deficit,2022,BHD,Sea
+Jordan,JO,30.5852,36.2384,Saudi Arabia,SA,150000,150000000,Pharmaceuticals,Manufactured Goods,Deficit,2023,JOD,Land
+Lebanon,LB,33.8547,35.8623,France,FR,100000,100000000,Foodstuffs,Raw Materials,Deficit,2023,LBP,Sea
+Egypt,EG,26.8206,30.8025,China,CN,1200000,1200000000,Textiles,Manufactured Goods,Deficit,2022,EGP,Sea
+Yemen,YE,15.5529,48.5164,United Arab Emirates,AE,500000,500000000,Oil,Raw Materials,Deficit,2023,YER,Sea
+Turkey,TR,38.9637,35.2433,Germany,DE,600000,600000000,Automobiles,Manufactured Goods,Deficit,2023,TRY,Land
+Israel,IL,31.0461,34.8516,United States,US,400000,400000000,High-Tech,Manufactured Goods,Surplus,2023,ILS,Air
+Palestine,PS,31.9522,35.2332,Jordan,JO,100000,100000000,Agriculture,Raw Materials,Deficit,2022,ILS,Land
+Armenia,AM,40.0691,45.0382,Turkey,TR,250000,250000000,Electronics,Manufactured Goods,Deficit,2023,AMD,Land
+Georgia,GE,42.3154,43.3569,Russia,RU,300000,300000000,Steel,Raw Materials,Deficit,2023,GEL,Land
+Azerbaijan,AZ,40.1431,47.5769,Turkey,TR,400000,400000000,Oil,Raw Materials,Deficit,2022,AZN,Sea
+Iran,IR,32.4279,53.6880,China,CN,1000000,1000000000,Oil,Raw Materials,Surplus,2023,IRR,Sea
+Afghanistan,AF,33.9391,67.7099,India,IN,150000,150000000,Agriculture,Raw Materials,Deficit,2022,AFN,Land
+Kyrgyzstan,KG,41.2044,74.7661,Kazakhstan,KZ,100000,100000000,Textiles,Manufactured Goods,Deficit,2023,KGS,Land
+Uzbekistan,UZ,41.3775,64.5853,Russia,RU,200000,200000000,Textiles,Manufactured Goods,Deficit,2023,UZS,Land
+Turkmenistan,TM,38.9697,59.5563,China,CN,300000,300000000,Oil,Raw Materials,Deficit,2022,TMT,Sea
